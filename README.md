@@ -1,2 +1,2 @@
 # potest-hp
-Potest Home Page. 
+Potest Home Page. Project created for [Akanza.pl.](https://akanza.pl/pl)
