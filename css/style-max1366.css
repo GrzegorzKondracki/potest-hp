@@ -1,0 +1,70 @@
+/* .header {
+  padding-left: 129px;
+  padding-right: 112px;
+} */
+
+/* .first-section {
+  margin-left: 129px;
+  margin-right: 129px;
+} */
+
+.first-img1366 {
+  display: block;
+}
+
+.first-img {
+  display: none;
+}
+
+/* Squares  */
+/* .first-square {
+  position: absolute;
+  left: 0;
+  top: 728px;
+  width: 129px;
+}
+
+.second-square {
+  position: absolute;
+  left: 129px;
+  top: 728px;
+  width: 129px;
+  opacity: 0.76;
+}
+
+.third-square {
+  position: absolute;
+  top: 857px;
+  left: 129px;
+  width: 129px;
+} */
+
+/* Third-section  */
+.third-section {
+  padding-left: 128px;
+}
+
+/* Fourth section  */
+.fourth-section {
+  padding-left: 128px;
+}
+
+.fourth-section .first-square {
+  left: 0;
+  width: 128px;
+  top: 317px;
+}
+.fourth-section .second-square {
+  left: 128px;
+  width: 128px;
+  top: 317px;
+}
+
+.fourth-section .third-square {
+  left: 128px;
+  width: 128px;
+}
+
+.footer {
+  padding-left: 128px;
+}

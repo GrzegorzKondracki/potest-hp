@@ -1,0 +1,13 @@
+.rodo p,
+.footer-headline h2 {
+  width: 375px;
+}
+
+.footer-headline {
+  width: inherit;
+}
+
+#button {
+  bottom: 0px;
+  right: 0px;
+}

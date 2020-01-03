@@ -1,0 +1,81 @@
+.header {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.login img {
+  margin-right: 20px;
+}
+
+.search {
+  margin-left: 60px;
+}
+
+.cart {
+  margin-right: 60px;
+}
+
+.top__bar-mobile {
+  height: 40px;
+}
+
+.bars.show {
+  right: 60px;
+  top: 80px;
+}
+.x.show {
+  right: 63px;
+  top: 80px;
+}
+
+.logo {
+  margin-top: 80px;
+}
+
+.biz-logo.show {
+  right: 63px;
+}
+
+.it-logo.show {
+  right: 63px;
+}
+
+.first-section {
+  /* font-size: 28px;
+  line-height: 50px; */
+  margin-top: 80px;
+}
+
+.top-line {
+  top: -15px;
+}
+
+.top-line-mobile {
+  top: 185px;
+}
+
+/* Squares  */
+.first-square {
+  top: 544px;
+}
+
+.second-square {
+  top: 544px;
+}
+
+.third-square {
+  top: 604px;
+}
+
+.main__btn {
+  bottom: 146px;
+  /* bottom: 79px; */
+}
+
+.rodo p {
+  width: 412px;
+}
+
+.footer-headline {
+  width: auto;
+}

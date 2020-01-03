@@ -1,0 +1,71 @@
+.header {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.top__bar-mobile {
+  height: 40px;
+}
+
+.login img {
+  margin-right: 18px;
+}
+
+.search {
+  margin-left: 12px;
+}
+
+.cart {
+  margin-right: 12px;
+}
+
+.bars.show {
+  right: 12px;
+  top: 70px;
+  transform: scale(1);
+}
+
+.x.show {
+  right: 15px;
+  top: 70px;
+  transform: scale(1);
+}
+
+.logo-mobile {
+  margin-top: 70px;
+}
+
+.biz-logo.show {
+  right: 30px;
+}
+
+.it-logo.show {
+  right: 30px;
+}
+
+.top-line-mobile {
+  top: 156px;
+}
+
+.mobile-arrow-down {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+
+.first-img-mobile {
+  position: relative;
+  width: 274px;
+}
+
+.main__btn {
+  display: none;
+}
+
+.first-section-text p {
+  margin-top: 60px;
+}

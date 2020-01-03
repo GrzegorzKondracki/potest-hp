@@ -1,0 +1,59 @@
+.first-section {
+  margin-top: 114px;
+}
+
+.first-img1366 {
+  display: block;
+}
+
+.first-img {
+  display: none;
+}
+
+.first-section-img {
+  width: auto;
+  height: auto;
+}
+
+.logo {
+  flex-basis: 478px;
+}
+
+/* Squares  */
+.first-square {
+  top: 675px;
+}
+
+.second-square {
+  top: 676px;
+}
+
+.third-square {
+  top: 804px;
+  left: 0;
+}
+
+/* Third-section  */
+.third-section {
+  padding-left: 200px;
+}
+
+/* Fourth section  */
+.fourth-section {
+  padding-left: 200px;
+}
+
+.fourth-section .first-square {
+  left: 40px;
+}
+.fourth-section .second-square {
+  left: 200px;
+}
+
+.fourth-section .third-square {
+  left: 200px;
+}
+
+.footer {
+  padding-left: 200px;
+}

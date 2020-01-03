@@ -1,0 +1,53 @@
+/* Third-section  */
+.third-section {
+  padding-left: 80px;
+}
+
+.offer-item {
+  width: 948px;
+}
+
+.title {
+  width: 280px;
+}
+
+.title p {
+  width: 280px;
+}
+
+.place,
+.net-price,
+.gross-price {
+  margin-left: 20px;
+}
+
+.top-item {
+  width: 948px;
+}
+
+.top-item p:nth-child(1) {
+  width: 280px;
+  margin-left: 62px;
+}
+
+.top-item p:nth-child(2),
+.top-item p:nth-child(3),
+.top-item p:nth-child(4) {
+  margin-left: 20px;
+}
+
+.fourth-section {
+  padding-right: 30px;
+}
+
+.footer-second-line-wrap {
+  margin-left: 50px;
+}
+
+.footer-headline {
+  margin-right: 100px;
+}
+
+.rodo p {
+  width: 684px;
+}

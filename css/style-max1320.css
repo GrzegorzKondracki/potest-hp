@@ -1,0 +1,76 @@
+.header {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.headre-wrap {
+  margin-left: 0;
+}
+
+.first-section {
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+/* Squares  */
+.first-square {
+  width: 60px;
+  top: 745px;
+}
+
+.second-square {
+  width: 60px;
+  top: 745px;
+  left: 60px;
+}
+
+.third-square {
+  width: 60px;
+  top: 805px;
+  left: 60px;
+}
+
+.question {
+  font-size: 40px;
+  line-height: 60px;
+  margin-right: 24px;
+}
+
+.offer {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+/* Third-section  */
+.third-section {
+  padding-left: 80px;
+}
+
+/* Fourth section  */
+.fourth-section {
+  padding-left: 80px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.fourth-section .first-square {
+  left: 0;
+  width: 80px;
+  top: 365px;
+}
+.fourth-section .second-square {
+  left: 80px;
+  width: 80px;
+  top: 365px;
+}
+
+.fourth-section .third-square {
+  left: 80px;
+  width: 80px;
+}
+
+.footer {
+  padding-left: 80px;
+}

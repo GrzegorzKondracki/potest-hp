@@ -1,0 +1,42 @@
+.header {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.first-section-text {
+  margin-left: 50px;
+}
+
+.first-section {
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.question {
+  font-size: 36px;
+  line-height: 60px;
+  margin-right: 0;
+}
+
+/* .top-line {
+  display: none;
+} */
+
+/* .item {
+  width: 235px;
+  height: 235px;
+} */
+
+.bg-square {
+  width: 232px;
+  height: 232px;
+}
+
+.right-img1366 {
+  height: 464px;
+}
+
+/* Third-section  */
+.third-section {
+  padding-left: 50px;
+}

@@ -1,0 +1,133 @@
+.header {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.logo-mobile {
+  display: block;
+  margin-top: 80px;
+}
+
+.logo-mobile.hidden {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.ul.mobile-nav.show {
+  left: 48px;
+  top: 58px;
+}
+
+.fb-but.show {
+  left: 48px;
+  top: 376px;
+}
+
+.biz-logo {
+  left: inherit;
+  right: 30px;
+}
+
+.it-logo {
+  top: 450px;
+  left: inherit;
+  right: 30px;
+}
+
+.bars.show {
+  right: 12px;
+}
+
+.x.show {
+  right: 15px;
+}
+
+.search {
+  margin-left: 12px;
+}
+
+.cart {
+  margin-right: 12px;
+}
+
+.first-section {
+  margin-top: 72px;
+  margin-left: 12px;
+  margin-right: 45px;
+  font-size: 23px;
+  line-height: 33px;
+}
+
+.top-line-mobile {
+  top: 167px;
+  left: 12px;
+}
+
+.first-square {
+  top: 498px;
+  width: 45px;
+}
+
+.second-square {
+  top: 498px;
+  width: 45px;
+  left: 45px;
+}
+
+.third-square {
+  top: 543px;
+  width: 45px;
+  left: 45px;
+}
+
+.second-section {
+  margin-left: 12px;
+}
+
+.first-section-text p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-top: 119px;
+}
+
+.question h2 {
+  margin-bottom: 40px;
+}
+
+.main__btn {
+  /* display: none; */
+  bottom: 206px;
+  /* bottom: 138px; */
+}
+
+.offer h2 {
+  margin-left: 12px;
+}
+
+.offer-item-mobile {
+  padding-right: 12px;
+}
+
+.fourth-section {
+  padding-right: 55px;
+}
+
+.footer-logo-wrap img {
+  width: 130px;
+}
+
+.top-line2 {
+  margin-left: -49px;
+}
+
+.main__btn4 {
+  margin-left: 12px;
+}
+
+.footer {
+  padding-left: 12px;
+}

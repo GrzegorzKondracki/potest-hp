@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Potest Edukacja</title>
+    <link rel="shortcut icon" href="img/fav.png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1850px)" href="css/style-max1850.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1615px)" href="css/style-max1615.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1490px)" href="css/style-max1490.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1366px)" href="css/style-max1366.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1320px)" href="css/style-max1320.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1230px)" href="css/style-max1230.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1187px)" href="css/style-max1187.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1140px)" href="css/style-max1140.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/style-max1024.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/style-max768.css" />
+    <link rel="stylesheet" media="screen and (max-width: 560px)" href="css/style-max560.css" />
+    <link rel="stylesheet" media="screen and (max-width: 479px)" href="css/style-max479.css" />
+    <link rel="stylesheet" media="screen and (max-width: 477px)" href="css/style-max477.css" />
+    <link rel="stylesheet" media="screen and (max-width: 462px)" href="css/style-max462.css" />
+    <link rel="stylesheet" media="screen and (max-width: 425px)" href="css/style-max425.css" />
+    <link rel="stylesheet" media="screen and (max-width: 383px)" href="css/style-max383.css" />
+    <link rel="stylesheet" media="screen and (max-width: 375px)" href="css/style-max375.css" />
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="css/style-max320.css" />
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <div class="logo">
+            <img src="img/logo.png" alt="" />
+        </div>
+
+        <div class="logo-mobile">
+            <img src="img/logo-mobile.png" alt="" />
+        </div>
+
+        <img class="bars show" src="img/bars.png" alt="">
+        <img class="x" src="img/x.png" alt="">
+
+        <div class="top__bar-mobile">
+            <div class="top__bar-wrap-mobile">
+                <div class="search">
+                    <img src="img/search-icon.png" alt="" class="search-icon search-icon-mobile" />
+                    <input class="input" id="input-mobile" type="text" placeholder="SZUKAJ" onblur="blurMobile()">              
+                </div>
+
+                <div class="top__bar-left-side">
+                    <div class="login">
+                        <img src="img/login-icon.png" alt="" />
+                    </div>
+
+                    <div class="cart">
+                        <img src="img/cart-icon.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-wrap">
+            <div class="top__bar">
+                <div class="top__bar-wrap">
+                    <div class="search">
+                        <img src="img/search-icon.png" alt="" class="search-icon" />
+                        <img class="search-icon-color" src="img/search-icon-color.png" alt="" class="search-icon" />
+                        <!-- <p>Szukaj</p> -->
+                        <input class="input" id="input" type="text" placeholder="SZUKAJ" onblur="blurFunction()">
+                        <img class="search-x" src="img/search-x.png" alt="">
+                    </div>
+
+                    <div class="top__bar-left-side">
+                        <div class="login">
+                            <img class="login-icon" src="img/login-icon.png" alt="" />
+                            <img class="login-icon-color" src="img/login-icon-color.png" alt="" />
+                            <p>Zaloguj</p>
+                        </div>
+
+                        <div class="cart">
+                            <img class="cart-icon" src="img/cart-icon.png" alt="" />
+                            <img class="cart-icon-color" src="img/cart-icon-color.png" alt="" />
+                            <p>Koszyk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <nav class="nav">
+                <ul class="ul  mobile-nav">
+                    <li><a class="a-border" href="#">Start</a></li>
+                    <li><a class="a-border" href="#">O nas</a></li class="a-border">
+                    <li><a class="a-border" href="#">Oferta</a></li>
+                    <li><a class="a-border" href="#">E-poradnia</a></li>
+                    <li><a class="a-border" href="#">Nasze projekty</a></li>
+                    <li><a class="a-border" href="#">Kontakt</a></li>
+                </ul>
+
+                <!-- <section id="about" data-section="start-section"></section> -->
+                <!-- <section id="offer" data-section="about-section"></section> -->
+                <!-- <section id="shop" data-section="offer-section"></section> -->
+                <!-- <section id="contact" data-section="projects-section"></section> -->
+                <!-- <section id="contact" data-section="contact-section"></section> -->
+
+                <img class="fb-but" src="img/fb-but.png" alt="">
+                <img class="biz-logo" src="img/biz-logo.png" alt="">
+                <img class="it-logo" src="img/it-logo.png" alt="">
+                <!-- <img class="squares-violet" src="img/squares-violet.png" alt=""> -->
+            </nav>
+        </div>
+    </div>
+
+    <!-- First section  -->
+    <div class="top-line-mobile"></div>
+    <section class="first-section">
+        <div class="first-section-img">
+            <img class="first-img" src="img/first-img.png" alt="">
+            <img class="first-img1366" src="img/first-img1366.png" alt="">
+            <img class="first-square" src="img/light-violet.png" alt="">
+            <img class="second-square" src="img/dark-violet.png" alt="">
+            <img class="third-square" src="img/light-violet.png" alt="">
+        </div>
+
+
+
+        <div class="first-section-text">
+            <h1>Wygodne rozwiązania dla nauczycieli, szkół i rodziców</h1>
+            <div class="first-img-mobile">
+                <img class="first-img320" src="img/first-img-mobile.png" alt="">
+
+                <div data-href='#offer' class="main__btnDiv mobile-arrow-down" data-id="about-section">
+                    <img class="arrow-down" src="img/arrow-down.png" alt="" />
+                </div>
+
+            </div>
+            <p>Jako centrum edukacji nauczycieli oferujemy profesjonalne webinaria, szkolenia stacjonarne oraz doradztwo
+                dla szkół, nauczycieli i rodziców.</p>
+
+            <div data-href='#offer' class="main__btn" id="about-section">
+                <div class="btnLink">
+                    <a class="main__btnLink3" href="#">Dalej</a>
+                </div>
+
+                <div class="main__btnDiv">
+                    <img class="arrow-down" src="img/arrow-down.png" alt="" />
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- Second section  -->
+    <section class="second-section" id="offer" data-id="about-section" data-section="about-section">
+
+        <div class="question">
+            <div class="top-line"></div>
+            <h2>Co nas wyróżnia?</h2>
+
+            <div class="main__btn2" id="btn">
+                <div class="btnLink">
+                    <a class="main__btnLink2" href="#">Dalej</a>
+                </div>
+
+                <div class="main__btnDiv">
+                    <img class="arrow-right" src="img/arrow-right.png" alt="" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid">
+            <div class="first-line">
+                <div class="item">
+                    <img class="text-grid" src="img/grid/first-text-grid.png" alt="">
+                    <img class="img-grid" src="img/grid/first-img-grid.png" alt="">
+                    <img class="bg-square" src="img/dark-violet.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="text-grid" src="img/grid/second-text-grid.png" alt="">
+                    <img class="img-grid" src="img/grid/second-img-grid.png" alt="">
+                    <img class="bg-square" src="img/light-violet.png" alt="">
+                </div>
+            </div>
+
+            <div class="second-line">
+                <div class="item">
+                    <img class="text-grid" src="img/grid/third-text-grid.png" alt="">
+                    <img class="img-grid" src="img/grid/third-img-grid.png" alt="">
+                    <img class="bg-square" src="img/light-violet.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="text-grid" src="img/grid/fourth-text-grid.png" alt="">
+                    <img class="img-grid" src="img/grid/fourth-img-grid.png" alt="">
+                    <img class="bg-square" src="img/dark-violet.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid2">
+            <div class="first-line">
+                <div class="item">
+                    <img class="text-grid" src="img/grid/first-text-grid-mobile.png" alt="">
+                    <img class="img-grid" src="img/grid/first-img-grid-mobile.png" alt="">
+                    <img class="bg-square" src="img/dark-violet.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="text-grid" src="img/grid/second-text-grid-mobile.png" alt="">
+                    <img class="img-grid" src="img/grid/second-img-grid-mobile.png" alt="">
+                    <img class="bg-square" src="img/light-violet.png" alt="">
+                </div>
+            </div>
+
+            <div class="second-line">
+                <div class="item">
+                    <img class="text-grid" src="img/grid/third-text-grid-mobile.png" alt="">
+                    <img class="img-grid" src="img/grid/third-img-grid-mobile.png" alt="">
+                    <img class="bg-square" src="img/light-violet.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="text-grid" src="img/grid/fourth-text-grid-mobile.png" alt="">
+                    <img class="img-grid" src="img/grid/fourth-img-grid-mobile.png" alt="">
+                    <img class="bg-square" src="img/dark-violet.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="right-img">
+            <img class="right-img1920" src="img/right-img.png" alt="">
+            <img class="right-img1366" src="img/right-img1366.png" alt="">
+        </div>
+
+        <div class="main__btn3">
+            <div class="btnLink">
+                <a class="main__btnLink2" href="#">O nas</a>
+            </div>
+
+            <div class="main__btnDiv">
+                <img class="arrow-right" src="img/arrow-right.png" alt="" />
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Third section  -->
+    <section class="third-section">
+        <div class="offer">
+            <div class="top-line2"></div>
+            <h2>Wyszukaj ofertę dla siebie</h2>
+        </div>
+
+        <div class="items">
+            <div class="top-item">
+                <p>Nazwa</p>
+                <p>Miejsce i czas</p>
+                <p>Cena netto</p>
+                <p>Cena brutto</p>
+            </div>
+
+            <div class="offer-item first">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square1" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title">
+                    <p>Jak rozmawiać z dziećmi w wieku 3-10 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place">
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="net-price">
+                    <p>100.00 zł</p>
+                </div>
+                <div class="gross-price">
+                    <p>123.00 zł</p>
+                </div>
+
+                <div class="main__btn-offer">
+                    <div class="btnLink">
+                        <a class="main__btnLink3" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="offer-item second">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square2" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title">
+                    <p>Jak rozmawiać z dziećmi w wieku 10-14 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place">
+                    <p>On-line</p>
+                </div>
+                <div class="net-price">
+                    <p>80.00 zł </p>
+                </div>
+                <div class="gross-price">
+                    <p>98.40 zł</p>
+                </div>
+
+                <div class="main__btn-offer2">
+                    <div class="btnLink">
+                        <a class="main__btnLink5" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow2" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="offer-item third">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square3" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title">
+                    <p>Organizacja zajęć edukacyjnych wychowanie do życia w rodzinie</p>
+                </div>
+                <div class="place">
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="net-price">
+                    <p>150.00 zł</p>
+                </div>
+                <div class="gross-price">
+                    <p>184.50 zł</p>
+                </div>
+
+                <div class="main__btn-offer3">
+                    <div class="btnLink">
+                        <a class="main__btnLink6" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow3" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="offer-item fourth">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square4" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title">
+                    <p>Razem w dorosłość. Wychowanie do życia w rodzinie w klasie V</p>
+                </div>
+                <div class="place">
+                    <p>On-line</p>
+                </div>
+                <div class="net-price">
+                    <p>60.00 zł </p>
+                </div>
+                <div class="gross-price">
+                    <p>73.80 zł</p>
+                </div>
+
+                <div class="main__btn-offer4">
+                    <div class="btnLink">
+                        <a class="main__btnLink7" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow4" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="offer-item fifth">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square5" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title">
+                    <p>Organizacja zajęć edukacyjnych wychowanie do życia w rodzinie</p>
+                </div>
+                <div class="place">
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="net-price">
+                    <p>150.00 zł</p>
+                </div>
+                <div class="gross-price">
+                    <p>184.50 zł</p>
+                </div>
+
+                <div class="main__btn-offer5">
+                    <div class="btnLink">
+                        <a class="main__btnLink8" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow5" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Items mobile  -->
+        <div class="items-mobile">
+
+            <div class="offer-item-mobile first-mobile">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square1" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title-mobile">
+                    <h3>Nazwa</h3>
+                    <p>Jak rozmawiać z dziećmi w wieku 3-10 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place-mobile">
+                    <h3>Miejsce i czas</h3>
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="price-mobile">
+                    <div class="net-price">
+                        <h3>Cena netto</h3>
+                        <p>100.00 zł</p>
+                    </div>
+                    <div class="gross-price-mobile">
+                        <h3>Cena brutto</h3>
+                        <p>123.00 zł</p>
+                    </div>
+                </div>
+
+                <div class="main__btn-offer">
+                    <div class="btnLink">
+                        <a class="main__btnLink3" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="offer-item-mobile second-mobile">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square1" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title-mobile">
+                    <h3>Nazwa</h3>
+                    <p>Jak rozmawiać z dziećmi w wieku 3-10 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place-mobile">
+                    <h3>Miejsce i czas</h3>
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="price-mobile">
+                    <div class="net-price">
+                        <h3>Cena netto</h3>
+                        <p>100.00 zł</p>
+                    </div>
+                    <div class="gross-price-mobile">
+                        <h3>Cena brutto</h3>
+                        <p>123.00 zł</p>
+                    </div>
+                </div>
+
+                <div class="main__btn-offer2">
+                    <div class="btnLink">
+                        <a class="main__btnLink5" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow2" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="offer-item-mobile second-mobile">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square1" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title-mobile">
+                    <h3>Nazwa</h3>
+                    <p>Jak rozmawiać z dziećmi w wieku 3-10 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place-mobile">
+                    <h3>Miejsce i czas</h3>
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="price-mobile">
+                    <div class="net-price">
+                        <h3>Cena netto</h3>
+                        <p>100.00 zł</p>
+                    </div>
+                    <div class="gross-price-mobile">
+                        <h3>Cena brutto</h3>
+                        <p>123.00 zł</p>
+                    </div>
+                </div>
+
+                <div class="main__btn-offer">
+                    <div class="btnLink">
+                        <a class="main__btnLink3" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="offer-item-mobile second-mobile">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square1" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title-mobile">
+                    <h3>Nazwa</h3>
+                    <p>Jak rozmawiać z dziećmi w wieku 3-10 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place-mobile">
+                    <h3>Miejsce i czas</h3>
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="price-mobile">
+                    <div class="net-price">
+                        <h3>Cena netto</h3>
+                        <p>100.00 zł</p>
+                    </div>
+                    <div class="gross-price-mobile">
+                        <h3>Cena brutto</h3>
+                        <p>123.00 zł</p>
+                    </div>
+                </div>
+
+                <div class="main__btn-offer">
+                    <div class="btnLink">
+                        <a class="main__btnLink3" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="offer-item-mobile second-mobile">
+
+                <div class="offer-squares">
+                    <img class="offer-first-squqre square1" src="img/light-violet.png" alt="">
+                    <img class="offer-second-squqre" src="img/dark-violet.png" alt="">
+                    <img class="offer-third-squqre" src="img/light-violet.png" alt="">
+                </div>
+
+                <div class="title-mobile">
+                    <h3>Nazwa</h3>
+                    <p>Jak rozmawiać z dziećmi w wieku 3-10 lat o miłości i seksualności?</p>
+                </div>
+                <div class="place-mobile">
+                    <h3>Miejsce i czas</h3>
+                    <p>Warszawa</p>
+                    <p>01-02.01.2020</p>
+                </div>
+                <div class="price-mobile">
+                    <div class="net-price">
+                        <h3>Cena netto</h3>
+                        <p>100.00 zł</p>
+                    </div>
+                    <div class="gross-price-mobile">
+                        <h3>Cena brutto</h3>
+                        <p>123.00 zł</p>
+                    </div>
+                </div>
+
+                <div class="main__btn-offer">
+                    <div class="btnLink">
+                        <a class="main__btnLink3" href="#">Zobacz</a>
+                    </div>
+
+                    <div class="main__btnDiv">
+                        <img class="right-arrow" src="img/right-arrow.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main__btn4">
+            <div class="btnLink4">
+                <a class="main__btnLink4" href="#">Zobacz wszystkie</a>
+            </div>
+
+            <div class="main__btnDiv">
+                <img class="arrow-right" src="img/arrow-right.png" alt="" />
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Section fourth  -->
+<section class="fourth-section">         
+
+    <div class="fourth-section-img">
+            <img class="fourth-section-img" src="img/fourth-section-img.png" alt="">
+            <!-- <img class="fourth-section-img320" src="img/fourth-section-img320.png" alt=""> -->
+
+            <img class=" first-square" src="img/light-violet.png" alt="">
+            <img class="second-square" src="img/dark-violet.png" alt="">
+            <img class="third-square" src="img/light-violet.png" alt="">
+    </div>
+
+    <div class="fourth-section-text">
+        <div class="fourth-section-line"></div>
+        <h1>Sprawdź e-poradnię dla 
+                nauczycieli i rodziców</h1>
+        <img class="fourth-section-img320" src="img/fourth-section-img320.png" alt="">
+
+        <p>Zostań członkiem społeczności Potest, korzystaj z porad, wymieniaj się doświadczeniem, dyskutuj, rozwijaj się, czerp inspiracje i wiedzę od specjalistów sektora edukacji.</p>
+
+        <div class="main__btn5" id="btn">
+                <div class="btnLink">
+                    <a class="main__btnLink3" href="#">Dołącz</a>
+                </div>
+
+                <div class="main__btnDiv">
+                    <img class="arrow-join" src="img/arrow-join.png" alt="" />
+                </div>
+        </div>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <div class="footer__first-line">
+        <div class="footer-headline">
+            <div class="footer-top-line"></div>
+            <h2>Poznaj nasze rozwiązania szkoleniowe oraz IT dla firm i instytucji.</h2>
+        </div>
+
+        <div class="footer-logo-wrap">
+            <img class="footer-biz-logo" src="img/footer-biz.png" alt="">
+            <img class="footer-it-logo" src="img/footer-it.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer__second-line">
+        <div class="copyrights">
+            <a class="copyrights__links" href="#">Copyrights</a>
+            <a class="copyrights__links" href="#"> & cookies</a>
+        </div>
+
+        <div class="footer-second-line-wrap">
+
+            <div class="reg">
+                <a class="reg-arrow" href="#">Regulamin i polityka Prywatności</a>
+                <img class="footer-right-arrow-reg" src="img/rightwards-arrow.svg" alt="" />
+                <img class="fb-but" src="img/fb-but.png" alt="">
+                <!-- <img class="fb-but2" src="img/fb-but2.png" alt=""> -->
+            </div>
+
+            <div class="rodo">
+                <p>Rodo: Stosujemy pliki cookies. Korzystanie ze strony bez zmiany ustawień przeglądarki oznacza, że pliki cookies będą zamieszczane w Twoim urządzeniu.</p>
+                <div class="more-wrap">
+                    <img class="footer-right-arrow" src="img/rightwards-arrow.svg" alt="" />
+                    <a class="copyrights__more" href="#">Więcej</a>
+                </div>
+            </div>
+        </div>
+
+        <a id="button">
+            <img src="img/arrow-up.png" alt="" srcset="" />
+        </a>
+
+    </div>
+</footer>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="js/script.js"></script>
+
+</html>

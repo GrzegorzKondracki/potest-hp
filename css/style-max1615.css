@@ -1,0 +1,65 @@
+.header {
+  padding-left: 129px;
+  padding-right: 0px;
+}
+
+.first-section {
+  margin-left: 129px;
+  margin-right: 129px;
+}
+
+/* Squares  */
+.first-square {
+  position: absolute;
+  left: 0;
+  top: 953px;
+  width: 129px;
+}
+
+.second-square {
+  position: absolute;
+  left: 129px;
+  top: 824px;
+  width: 129px;
+  opacity: 0.76;
+}
+
+.third-square {
+  position: absolute;
+  top: 953px;
+  left: 129px;
+  width: 129px;
+}
+
+.right-img1366 {
+  display: block;
+}
+
+.right-img1920 {
+  display: none;
+}
+
+/* Third-section  */
+.third-section {
+  padding-left: 250px;
+}
+
+/* Fourth section  */
+.fourth-section {
+  padding-left: 250px;
+}
+
+.fourth-section .first-square {
+  left: 90px;
+}
+.fourth-section .second-square {
+  left: 250px;
+}
+
+.fourth-section .third-square {
+  left: 250px;
+}
+
+.footer {
+  padding-left: 250px;
+}

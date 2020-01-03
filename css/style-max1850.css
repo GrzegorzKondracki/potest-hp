@@ -1,0 +1,28 @@
+.third-square {
+  left: 0;
+}
+
+/* Third-section  */
+.third-section {
+  padding-left: 300px;
+}
+
+/* Fourth section  */
+.fourth-section {
+  padding-left: 300px;
+}
+
+.fourth-section .first-square {
+  left: 140px;
+}
+.fourth-section .second-square {
+  left: 300px;
+}
+
+.fourth-section .third-square {
+  left: 300px;
+}
+
+.footer {
+  padding-left: 300px;
+}
